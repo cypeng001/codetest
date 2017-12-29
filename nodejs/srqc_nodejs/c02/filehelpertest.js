@@ -1,4 +1,4 @@
-var filehelpermod = require('./filehelpermod');
+var filehelpermod = require('./file_helper');
 
 function fh1_load_cb(err, data) {
 	console.log("fh1_load_cb", err, data, data.toString());
