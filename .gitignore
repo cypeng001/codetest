@@ -3,8 +3,9 @@
 logs/*.log
 *.log
 !.gitignore
-pomeloproj/game-server/logs/*
-pomeloproj/game-server/node_modules/*
+pomeloproj/HelloWorld/game-server/logs/*
+pomeloproj/HelloWorld/game-server/node_modules/*
+pomeloproj/HelloWorld/web-server/node_modules/*
 .project
 .settings/
 **/*.svn
