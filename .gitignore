@@ -1,0 +1,14 @@
+.project
+*/node-log.log
+logs/*.log
+*.log
+!.gitignore
+pomeloproj/game-server/logs/*
+pomeloproj/game-server/node_modules/*
+.project
+.settings/
+**/*.svn
+*.svn
+*.swp
+*.sublime-project
+*.sublime-workspace
