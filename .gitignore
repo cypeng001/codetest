@@ -3,9 +3,6 @@
 logs/*.log
 *.log
 !.gitignore
-pomeloproj/HelloWorld/game-server/logs/*
-pomeloproj/HelloWorld/game-server/node_modules/*
-pomeloproj/HelloWorld/web-server/node_modules/*
 .project
 .settings/
 **/*.svn
@@ -13,3 +10,7 @@ pomeloproj/HelloWorld/web-server/node_modules/*
 *.swp
 *.sublime-project
 *.sublime-workspace
+nodejs/srqc_nodejs/c04/node_modules/*
+pomeloproj/HelloWorld/game-server/logs/*
+pomeloproj/HelloWorld/game-server/node_modules/*
+pomeloproj/HelloWorld/web-server/node_modules/*
