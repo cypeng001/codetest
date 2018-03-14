@@ -1,0 +1,3 @@
+<?php
+die("PHP DIE");
+?>
