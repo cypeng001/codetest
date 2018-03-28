@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!-- saved from url=(0033)http://ctrl.shushan.com/links.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>ZQgame工作台</title>
+<!--script src="./other/resize.js" type="text/javascript"></script-->
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<script type="text/javascript">
+function frameresize(frame_name)
+{
+	var _iframe = document.getElementById(frame_name);
+	try{
+		var bHeight = _iframe.contentWindow.document.body.scrollHeight;
+		var dHeight = _iframe.contentWindow.document.documentElement.scrollHeight;
+		var height = Math.max(bHeight, dHeight);
+		_iframe.height =  height + 2;
+		
+		var bWidth = _iframe.contentWindow.document.body.scrollWidth;
+		var dWidth = _iframe.contentWindow.document.documentElement.scrollWidth;
+		var width = Math.max(bWidth, dWidth);
+		_iframe.width = width + 2;
+	}
+	catch (ex){}
+}
+function ResizeFrame()
+{
+	frameresize("task_frame");
+}
+</script>
+</head>
+<body onload="javascript:ResizeFrame();">
+<!--
+<form action="handle.php" method="get" target="_blank">
+	用户名:<input type="text" name="user" />
+	服务器ip:<input type="text" name="ip" value="192.168.2.188"/>
+	<select name="s_id">
+		<option value="0">开发服</option>
+		<option value="1">发布服</option>
+	</select>
+	<input type="submit" value="进入游戏" />
+	后台地址:<input type="text" name="admin_server" />
+	<select name="cm">
+		<option value="0">未满18岁</option>
+		<option value="1">年满18岁</option>
+	</select>
+	<select name="lang">
+		<option value="cn">简体</option>
+		<option value="tw">繁体</option>
+	</select>
+	<input type="hidden" name="type" value="login" />
+</form>
+<form action="handle.php" method="get" target="_blank">
+	用户名:<input type="text" name="user" />
+	<select name="cm">
+		<option value="0">未满18岁</option>
+		<option value="1">年满18岁</option>
+	</select>
+	<select name="lang">
+		<option value="cn">简体</option>
+		<option value="tw">繁体</option>
+	</select>
+	<input type="hidden" name="type" value="loginout" />
+	<input type="submit" value="登录中央测试服" />
+</form>
+<script type="text/javascript">
+function strtotime()
+{
+	var date_str=document.getElementById("time_str").value;
+	var time_stamp= Date.parse(date_str.replace(/-/g, '/'))/1000;
+	document.getElementById("time_stamp").value=time_stamp;
+}
+</script>
+<input type="text" id="time_str" name="time_str" value="2018-03-28 16:43:28" />
+<input type="button" value="->" onclick="strtotime()" />
+<input type="text" id="time_stamp" name="time_stamp" value="1522226608" />
+<br>
+-->
+
+<!--
+<iframe id="task_frame" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="_self" src="./other/task.gif?1522226608" />
+
+<iframe id="res_frame" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="_self" src="./other/res.gif?1522226608" />
+<iframe id="bug_frame" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="_self" src="./other/bug.gif?1522226608" />
+
+-->
+
+<!--
+<iframe id="task_frame" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="_self" src="./other/工作安排.htm?1522226608" />
+-->
+
+
+</body></html>
